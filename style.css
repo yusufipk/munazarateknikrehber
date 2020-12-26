@@ -4,7 +4,16 @@ body {
     font-family: 'Raleway';
 }
 
-h1, h4 {
+#header-img {
+    width: 100px;
+    height: auto;
+}
+
+#headtitle {
+    margin-top: -75px;
+    margin-left: 110px;
+}
+h1, h2, h4 {
     font-family: 'Langar';
 }
 
