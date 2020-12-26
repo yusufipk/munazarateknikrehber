@@ -1,5 +1,5 @@
 body {
-    background-color: #0D1821;
+    background-color: #23303B;
     color: white;
     font-family: 'Raleway';
 }
@@ -10,7 +10,7 @@ body {
 }
 
 #headtitle {
-    margin-top: -75px;
+    margin-top: -90px;
     margin-left: 110px;
 }
 h1, h2, h4 {
@@ -37,3 +37,50 @@ a {
 #oda, #okul {
     width: 300px;
 }
+
+nav {
+    border-right: solid;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 300px;
+    height: 100%;
+    background-color: #0D1821;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav li {
+    display: block;
+    padding: 1.5em;
+}
+
+a:hover {
+    font-weight: bold;
+  }
+
+  @media all and (max-width: 1100px) {
+      nav {
+          width: 85px;
+      }
+      
+      nav li {
+          text-align: left;
+          font-size: 14px;
+          margin-left: -57px;
+      }
+
+      .main-section img {
+          width: 800px;
+      }
+
+      #headtitle {
+          display: none;
+      }
+      
+      #header-img {
+          width: 70px;
+      }
+  }
