@@ -9,10 +9,19 @@ body {
     height: auto;
 }
 
+#header-img2 {
+    display: none;
+}
+
 #headtitle {
     margin-top: -90px;
     margin-left: 110px;
 }
+
+#headtitle2 {
+    display: none;
+}
+
 h1, h2, h4 {
     font-family: 'Langar';
 }
@@ -61,26 +70,58 @@ a:hover {
     font-weight: bold;
   }
 
-  @media all and (max-width: 1100px) {
-      nav {
-          width: 85px;
+@media all and (max-width: 1100px) {
+    nav {
+        width: 85px;
       }
-      
-      nav li {
-          text-align: left;
-          font-size: 14px;
-          margin-left: -57px;
-      }
+    
+    nav li {
+        text-align: left;
+        font-size: 14px;
+        margin-left: -57px;
+    }
 
-      .main-section img {
-          width: 800px;
-      }
+    .main-section img {
+        width: 800px;
+    }
 
-      #headtitle {
-          display: none;
-      }
-      
-      #header-img {
-          width: 70px;
-      }
-  }
+    #headtitle {
+        display: none;
+    }
+    
+    #header-img {
+        width: 70px;
+    }
+}   
+
+@media all and (max-width: 700px) {
+    .main-section img {
+        width: 500px;
+    }
+
+    .main-section p {
+        width: 250px;
+        margin: 0 auto;
+    }
+
+    nav {
+        display: none;
+    }
+
+    #header-img2 {
+        display: initial;
+        width: 100px;
+        margin-bottom: -30px;
+    }
+
+    #headtitle2 {
+        display: initial;
+        font-size: 22px;
+        margin-bottom: -100px;
+    }
+
+    #main_section_0 {
+        margin-top: 70px;
+    }
+}
+
